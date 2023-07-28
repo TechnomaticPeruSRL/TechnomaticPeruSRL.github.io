@@ -1,0 +1,16 @@
+.container5 {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .square {
+    width: 400px;
+    height: 150px;
+    background-color: rgb(255, 255, 255);
+    background-size: 70% 55%;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 10px;
+    border: 1px solid rgb(106, 103, 103);
+  }
+  

@@ -1,0 +1,418 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <script type="text/javascript" language="javascript" src="jquery.carouFredSel-5.6.4-packed.js"></script>
+    <script type="text/javascript" language="javascript" src="jquery.touchSwipe.js"></script>
+    <link rel="stylesheet" href="servicios.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="main.js">
+    <link rel="stylesheet" href="marcas.css">
+
+    <title>TechnomaticPeruSRL</title>
+  </head>
+
+     <!--========================================================== -->
+                        <!-- ENCABEZADO -->
+  <!--========================================================== -->
+  <header class="container-fluid bg-primary d-flex justify-content-center">
+    <p class="text-light mb-0 p-2 fs-6" style="margin-right: 50px;">
+        <a href="tel:+51943627895" class="text-light" style="text-decoration: none;"><b> &#128222;+51 943 627 895</b></a>
+        <a style="padding-left: 50px; text-decoration: none;" href="mailto:technomaticperusrl@gmail.com" class="text-light"><b>&#9993; technomaticperusrl@gmail.com</b></a>
+    </p>
+</header>
+
+    <nav  class="navbar navbar-expand-lg navbar-light p-3"  id="menu">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+            <img src="images/logo 1.png" style="width: 250px;">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="servicios.html">Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="marcas.html">Marcas</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <a href="https://api.whatsapp.com/send?phone=51923932620" class="btn btn-primary btn-primary-outline-success"><svg xmlns="https://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+              <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
+            </svg>  Habla con nosotros</a>
+          </form>
+        </div>
+
+      </div>
+    </nav>
+
+    <!--========================================================== -->
+                        <!-- SLIDER DE IMAGENES-->
+    <!--========================================================== -->
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Quicksand&display=swap');
+    @keyframes fadeInDown {
+      from {
+        opacity: 0;
+        transform: translate3d(0, -100%, 0);
+      }
+  
+      to {
+        opacity: 1;
+        transform: none;
+      }
+    }
+  
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translate3d(0, 100%, 0);
+      }
+  
+      to {
+        opacity: 1;
+        transform: none;
+      }
+    }
+  </style>
+
+    <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="3000">
+          <img src="images/pexels-pixabay-159306.png" class="d-block w-100" alt="" style="transform: scale(1.1); box-shadow: 0px 0px 10px rgb(0, 0, 0); filter: brightness(50%); transition: transform 0.3s ease, box-shadow 0.3s ease;">
+          <div class="carousel-caption position-absolute top-50 start-50 translate-middle" style="padding: 10px; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); color: #ffffff; font-family: 'Arvo', cursive;">
+            <h3 style="font-size: 3vw; margin-bottom: 10px; animation: fadeInDown 2s;">¡UN VIAJE HACIA EL ÉXITO TE ESPERA! </h3><br>
+            <p style="font-size: 1.5vw; animation: fadeInUp 2s;">
+              <b>Descubre cómo nuestra pasión, dedicación y creatividad pueden elevar tu negocio hacia horizontes inexplorados. <br>Bienvenido al mundo de las soluciones elevadas, donde tus sueños se hacen realidad.</b>
+            </p>
+          </div>
+        </div>
+  
+        <div class="carousel-item" data-bs-interval="3000">
+          <img src="images/construyendo-nuevas-casas-concreto_1398-3932.png" class="d-block w-100" alt="" style=" transform: scale(1.1);box-shadow: 0px 0px 10px rgba(0, 0, 0, 0);filter: brightness(50%);transition: transform 0.3s ease, box-shadow 0.3s ease;">
+          <div class="carousel-caption position-absolute top-50 start-50 translate-middle" style="padding: 10px; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); color: #ffffff; font-family: 'Arvo', cursive;">
+            <h3 style="font-size: 3vw; margin-bottom: 10px; animation: fadeInDown 2s;">"LA PASIÓN POR LA INNOVACIÓN SE REFLEJA EN CADA DISEÑO"</h3><br>
+            <p style="font-size: 1.5vw; animation: fadeInUp 2s;"><B>Nuestra amplia experiencia y compromiso con la calidad nos permiten ofrecer soluciones </B></p>
+          </div>
+        </div>
+  
+        <div class="carousel-item" data-bs-interval="3000">
+          <img src="images/pexels-kateryna-babaieva-2760241.png" class="d-block w-100" alt="" style=" transform: scale(1.1);box-shadow: 0px 0px 10px rgba(0, 0, 0, 0);filter: brightness(50%);transition: transform 0.3s ease, box-shadow 0.3s ease;">
+          <div class="carousel-caption position-absolute top-50 start-50 translate-middle" style="padding: 10px; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); color: #ffffff; font-family: 'Arvo', cursive;">
+            <h3 style="font-size: 3vw; margin-bottom: 10px; animation: fadeInDown 2s;">"NUESTRA EXPERIENCIA ES TU VENTAJA COMPETITIVA"</h3><br>
+            <p style="font-size: 1.5vw; animation: fadeInUp 2s;"><B>TECHNOMATIC PERU, líderes en elevación industrial</B></p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+  
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.10.2/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/5.3.2/js/bootstrap.min.js"></script>
+    </div>
+    
+    
+     
+    <!--========================================================== -->
+                        <!-- INTRODUCCION DE SERVICIOS-->
+    <!--========================================================== -->
+
+    <section class="d-flex flex-column justify-content-center align-items-center pt-5  text-center w-50 m-auto" id="intro">
+    <h1 class="fw-ligh p-3 fs-2" style="color: #000!important;">Una empresa única para todas tus necesidades de <span class="text-primary" style="color: black;">soluciones de ingeniería<span/></h1>
+     <p class="lead text-muted p-3  fs-4" style="color: #000!important;">
+        En <span class="text-primary"><b>Technomatic Peru</b></span>, nuestra pasión por la innovación y la excelencia se fusionan para ofrecer soluciones de ingeniería que impulsan el crecimiento y el éxito de nuestros clientes.      
+     </p>   
+    </section>
+    <br>
+
+   <!--========================================================== -->
+                        <!-- TIPOS DE SERVICIOS-->
+    <!--========================================================== -->
+ <div class="container">
+  <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-center" style="--bs-gutter-x: 2rem;">
+    <div class="col">
+      <div class="card h-100" style="width: 100%">
+        <img src="images/desk-g4f418ee0c_1280.jpg" class="card-img-top" alt="img1">
+        <div class="card-body">
+          <center>
+            <h5 class="fw-ligh card-title" style="color: #000!important;">AUTOMATIZACIÓN Y CONTROL DE PROCESOS</h5>
+          </center>
+          <p class="lead text-muted card-text" style="text-align: justify; color: #000!important; font-size: 16px;">
+            Potenciamos la eficiencia y productividad de nuestros clientes mediante la implementación estratégica de automatización y control de procesos, brindando soluciones tecnológicas innovadoras y personalizadas.
+          </p><br><br>
+          <div class="container">
+          <div class="text-center d-flex justify-content-center">
+            <a href="auto.html">
+            <button class="btn btn-primary mx-auto">Ver más</button>
+            </a> 
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card h-100" style="width: 100%">
+        <img src="images/crystal-kwok-mhUsz2ezlXQ-unsplash.jpg" class="card-img-top" alt="img2">
+        <div class="card-body">
+          <center>
+            <h5 class="fw-ligh card-title" style="color: #000!important;">MANTENIMIENTO EN PLANTAS INDUSTRIALES</h5>
+          </center>
+          <p class="lead text-muted card-text" style="text-align: justify; color: #000!important; font-size: 16px;">
+            Ofrecemos un servicio integral de mantenimiento en plantas industriales que maximiza la eficiencia operativa, minimiza los tiempos de inactividad y prolonga la vida útil de los equipos, gracias a nuestro enfoque proactivo, técnicas especializadas y personal altamente capacitado.
+          </p>
+          <div class="container">
+          <div class="text-center d-flex justify-content-center">
+            <a href="mante.html">
+              <button class="btn btn-primary mx-auto">Ver más</button>
+              </a> 
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card h-100" style="width: 100%">
+        <img src="images/pexels-davide-locatelli-2383649.jpg" class="card-img-top" alt="img3">
+        <div class="card-body">
+          <center>
+            <h5 class="fw-ligh card-title" style="color: #000!important;">INSTALACIÓN Y MONTAJE</h5>
+          </center>
+          <p class="lead text-muted card-text" style="text-align: justify; color: #000!important; font-size: 16px;">
+            Brindamos un servicio de instalación y montaje profesional y preciso, brindando soluciones llave en mano para asegurar una implementación exitosa y un funcionamiento óptimo desde el primer momento, respaldado por nuestro equipo experto y especializado.</p>
+            <br><br>
+            <div class="container">
+            <div class="text-center d-flex justify-content-center">
+            <a href="insta.html">
+              <button class="btn btn-primary mx-auto">Ver más</button>
+            </a> 
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card h-100" style="width: 100%">
+        <img src="images/tuberias-acero-cables-planta_1359-144.png" class="card-img-top" alt="img4">
+        <div class="card-body">
+          <center>
+            <h5 class="fw-ligh card-title" style="color: #000!important;">ENSAMBLAJE DE TABLEROS</h5>
+          </center>
+          <p class="lead text-muted card-text" style="text-align: justify; color: #000!important; font-size: 16px;">
+            Nos encargamos del ensamblaje de tableros, garantizando la construcción precisa y confiable de sistemas eléctricos y de control. Nuestro equipo técnico altamente capacitado y comprometido se encarga de asegurar un funcionamiento seguro y eficiente de los equipos, brindando soluciones de calidad excepcional.</p>
+            <br><br>
+            <div class="container">
+            <div class="text-center d-flex justify-content-center">
+            <a href="ensamblaje.html">
+              <button class="btn btn-primary mx-auto">Ver más</button>
+            </a> 
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card h-100" style="width: 100%">
+        <img src="images/hombre-que-suelda-autogena-pala-vieja-cierre-arriba_127675-2554.jpg" class="card-img-top" alt="img5">
+        <div class="card-body">
+          <center>
+            <h5 class="fw-ligh card-title" style="color: #000!important;">FABRICACIÓN Y DISEÑO DE PIEZAS METÁLICAS</h5>
+          </center>
+          <p class="lead text-muted card-text" style="text-align: justify; color: #000!important; font-size: 16px;">
+            Brindamos soluciones personalizadas y de alta calidad en la fabricación y diseño de piezas metálicas, cumpliendo con las necesidades específicas de nuestros clientes y respaldados por nuestro equipo experto y tecnología avanzada en el proceso de producción.</p>
+            <br><br>
+            <div class="container">
+            <div class="text-center d-flex justify-content-center">
+            <a href="fabri.html">
+              <button class="btn btn-primary mx-auto">Ver más</button>
+            </a> 
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <div class="col">
+      <div class="card h-100" style="width: 100%">
+        <img src="images/IMG-Modular-Stacking-Valve-NG6.png" class="card-img-top" alt="img6" style="height: 272px;">
+        <div class="card-body">
+          <center>
+            <h5 class="fw-ligh card-title" style="color: #000!important;">POST VENTA DE EQUIPOS</h5>
+          </center>
+          <p class="lead text-muted card-text" style="text-align: justify; color: #000!important; font-size: 16px;">
+            Nos comprometemos a brindar un servicio integral de postventa, proporcionando asistencia técnica, mantenimiento y soporte continuo para garantizar la máxima satisfacción y rendimiento de los equipos adquiridos, fortaleciendo nuestra relación de confianza a largo plazo con los clientes.</p>
+            <br><br>
+            <div class="container">
+            <div class="text-center d-flex justify-content-center">
+            <a href="post.html">
+              <button class="btn btn-primary mx-auto">Ver más</button>
+            </a> 
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+<br>
+<br>
+
+<!--========================================================== -->
+                        <!-- CLIENTES-->
+    <!--========================================================== -->
+
+    <div class="container text-center">
+      <h1 class="fw-ligh" style="color: #000!important;">Confían en nosotros</h1>
+      <p class="lead text-muted" style="text-align: justify; color: #000!important;">Los clientes confían en nosotros debido a nuestra búsqueda constante de la excelencia, innovación y compromiso con estándares de alta calidad, brindando soluciones personalizadas para impulsar su crecimiento y éxito.</p>
+      <br>
+      <br>
+      
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="cards-wrapper" style="display: flex; justify-content: center;">
+              <div class="cardi" style="margin: 0 0.5em; box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18); border: none; border-radius: 0;">
+                <img src="images/NESTLE LOGO.png" class="card-img-top" alt="..." style="max-width: 100%; max-height: 100%;">
+              </div>
+              <div class="cardi d-none d-md-block" style="margin: 0 0.5em; box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18); border: none; border-radius: 0;">
+                <img src="images/exsa logo.png" class="card-img-top" alt="..." style="max-width: 100%; max-height: 100%;">
+              </div>
+              <div class="cardi d-none d-md-block" style="margin: 0 0.5em; box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18); border: none; border-radius: 0;">
+                <img src="images/mega ing logo.png" class="card-img-top" alt="..." style="max-width: 100%; max-height: 100%;">
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="cards-wrapper" style="display: flex; justify-content: center;">
+              <div class="cardi" style="margin: 0 0.5em; box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18); border: none; border-radius: 0;">
+                <img src="images/votoratim.jpg" class="card-img-top" alt="..." style="max-width: 100%; max-height: 100%;">
+              </div>
+              <div class="cardi d-none d-md-block" style="margin: 0 0.5em; box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18); border: none; border-radius: 0;">
+                <img src="images/SERIES_LOGOS_2009_406723.jpeg" class="card-img-top" alt="..." style="max-width: 100%; max-height: 100%;">
+              </div>
+              <div class="cardi d-none d-md-block" style="margin: 0 0.5em; box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18); border: none; border-radius: 0;">
+                <img src="images/logo 2.jpg" class="card-img-top" alt="..." style="max-width: 100%; max-height: 100%;">
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="cards-wrapper" style="display: flex; justify-content: center;">
+              <div class="cardi" style="margin: 0 0.5em; box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18); border: none; border-radius: 0;">
+                <img src="images/zinger.png" class="card-img-top" alt="..." style="max-width: 100%; max-height: 100%;">
+              </div>
+              <div class="cardi d-none d-md-block" style="margin: 0 0.5em; box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18); border: none; border-radius: 0;">
+                <img src="images/Luz-del-Sur2.jpg" class="card-img-top" alt="..." style="max-width: 100%; max-height: 100%;">
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev" style="background-color: #000000; width: 5vh; height: 5vh; border-radius: 50%; top: 50%; transform: translateY(-50%); color: #fff;">
+          <span class="carousel-control-prev-icon" aria-hidden="true" style="color: #fff;"></span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next" style="background-color: #000000; width: 5vh; height: 5vh; border-radius: 50%; top: 50%; transform: translateY(-50%); color: #fff;">
+          <span class="carousel-control-next-icon" aria-hidden="true" style="color: #fff;"></span>
+        </a>
+      </div>
+      
+      <br>  
+<br>
+<br>
+<br>  
+<br>
+<br>
+   
+     </div> 
+  </div>
+    
+<br>  
+<br>
+<br>
+
+<!--========================================================== -->
+                        <!--FOOTER-->
+<!--========================================================== -->
+
+<div class="footer-dark" style="color: #f0f9ff; background-color: #282d32; padding: 50px 0;">
+  <footer>
+      <div class="container">
+          <div class="row">
+              <div class="col-sm-6 col-md-3 item">
+                  <h3 style="margin-top: 0;margin-bottom: 12px;font-weight: bold; font-size: 16px;">Servicios</h3>
+                  <ul style="padding: 0;list-style: none;line-height: 1.6;font-size: 16px;margin-bottom: 0;">
+                      <li><a href="auto.html" style="color: inherit;text-decoration: none;opacity: 0.6; opacity:0.8;" onMouseOver="this.style.opacity=1" onMouseOut="this.style.opacity=0.6">Automatización y control de <br>procesos</a></li><br>
+                      <li><a href="mante.html" style="color: inherit;text-decoration: none;opacity: 0.6; opacity:0.8;" onMouseOver="this.style.opacity=1" onMouseOut="this.style.opacity=0.6">Mantenimiento en plantas <br>insutriales</a></li><br>
+                      <li><a href="insta.html" style="color: inherit;text-decoration: none;opacity: 0.6; opacity:0.8;" onMouseOver="this.style.opacity=1" onMouseOut="this.style.opacity=0.6">Instalación de montaje</a></li><br>
+                      <li><a href="ensamblaje.html" style="color: inherit;text-decoration: none;opacity: 0.6; opacity:0.8;" onMouseOver="this.style.opacity=1" onMouseOut="this.style.opacity=0.6">Ensamblaje de tableros</a></li><br>
+                      <li><a href="fabri.html" style="color: inherit;text-decoration: none;opacity: 0.6; opacity:0.8;" onMouseOver="this.style.opacity=1" onMouseOut="this.style.opacity=0.6">Fabricación y diseño de piezas <br>metálicas</a></li><br>
+                      <li><a href="post.html" style="color: inherit;text-decoration: none;opacity: 0.6; opacity:0.8;" onMouseOver="this.style.opacity=1" onMouseOut="this.style.opacity=0.6">Post venta de equipos</a></li><br>
+                  </ul>
+              </div>
+              <div class="col-sm-6 col-md-3 item">
+                  <h3 style="margin-top: 0;margin-bottom: 12px;font-weight: bold; font-size: 16px;">About</h3>
+                  <ul style="padding: 0;list-style: none;line-height: 1.6;font-size: 16px;margin-bottom: 0;">
+                      <li><a href="index.html" style="color: inherit;text-decoration: none;opacity: 0.6; opacity:0.8;" onMouseOver="this.style.opacity=1" onMouseOut="this.style.opacity=0.6">Inicio</a></li><br>
+                      <li><a href="nosotros.html" style="color: inherit;text-decoration: none;opacity: 0.6; opacity:0.8;" onMouseOver="this.style.opacity=1" onMouseOut="this.style.opacity=0.6">Nosotros</a></li><br>
+                      <li><a href="contacto.html" style="color: inherit;text-decoration: none;opacity: 0.6; opacity:0.8;" onMouseOver="this.style.opacity=1" onMouseOut="this.style.opacity=0.6">Contacto</a></li><br>
+                  </ul>
+              </div>
+              <div class="col-md-6 item text">
+                <h3 style="margin-top: 0;margin-bottom: 12px;font-weight: bold; font-size: 16px;">Technomatic Peru SRL</h3>
+                <p style="opacity: 0.6;margin-bottom: 0;">TECHNOMATIC PERU S.R.L. es una empresa líder en soluciones de elevación e industriales, especializada en el diseño, fabricación e instalación de equipos a medida. Con más de una década de experiencia, nos enorgullecemos de ofrecer productos de alta calidad, tecnología avanzada y un servicio excepcional para impulsar el crecimiento y éxito de nuestros clientes. Confía en nosotros como tu socio confiable en elevación y descubre la excelencia en cada proyecto.</p>
+                <br>
+                <br>
+                <div class="row">
+                  <div class="col-md-6 item text">
+                      <h3 style="margin-top: 0;margin-bottom: 12px;font-weight: bold; font-size: 16px;">Contacto</h3>
+                      <p style="opacity: 0.6;margin-bottom: 0;color: white;"><i class="bi bi-envelope"></i> <a href="mailto:technomaticperusrl@gmail.com" style="color: white;"><b>technomaticperusrl@gmail.com</b></a></p>
+                      <p style="opacity: 0.6;margin-bottom: 0;color: white;"><i class="bi bi-telephone"></i> <a href="tel:+51923932620" style="color: white;"><b>+51 923 932 620</b></a></p>
+                  </div>
+                  <div class="col-md-6 item text">
+                      <img src="images/logo technomatic.jpg" alt="Logo de Technomatic Peru" style="max-width: 100%; margin-bottom: 12px;">
+                  </div>
+              </div>
+              
+            </div>
+          <p class="copyright" style="text-align: center;padding-top: 24px;opacity: 0.3;font-size: 15px;margin-bottom: 0;">TechnomaticPeruSRL © 2023</p>
+      </div>
+  </footer>
+</div>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script> 
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+</html>

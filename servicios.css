@@ -1,0 +1,217 @@
+.hover-card:hover {
+    background-color: rgba(0, 0, 255, 0.261);
+    color: white;
+  }
+
+  .navbar-logo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .navbar-toggler {
+    float: right;
+  }
+  .navbar-logo img {
+    max-width: 100%;
+  }
+
+
+
+/*=========================MEDIA QUERIES PANTALLA ANCHA================================*/
+
+@media (max-width:1200px){
+  #intro, #equipo {
+      width:90% !important;
+      margin:auto;
+  }
+
+  #local {
+      flex-wrap: wrap;
+      padding-top:30px;
+ }
+ .wrapper-local {
+  width:90%;
+  margin:auto;
+  padding-top:50px;    
+ }
+
+}
+/*=========================MEDIA QUERIES PANTALLA SM================================*/
+
+
+@media (max-width:768px) {
+
+  #intro, #equipo{
+      width:90% !important;
+      margin:auto;
+  }
+
+  
+  #img-equipo{
+      max-height:20rem !important;
+      width:90%;
+  }
+  .wrapper-local {
+      width:90%;
+      margin:auto;
+      padding-top:50px;    
+  }
+  #local {
+      flex-wrap: wrap;
+  }
+  .mapa img {
+      width:100%;
+      height:auto;
+  }
+  #bg-contactos{
+      top: -120px;
+  }
+
+  @media (max-width:767px) {
+      .footer-dark .item:not(.social) {
+        text-align:center;
+        padding-bottom:20px;
+      }
+    }
+  
+  @media (max-width:767px) {
+      .footer-dark .item.text {
+        margin-bottom:0;
+      }
+    }
+
+  @media (max-width:991px) {
+      .footer-dark .item.social {
+        text-align:center;
+        margin-top:20px;
+      }
+    }
+}
+/*=========================MEDIA QUERIES PANTALLA EXTRA-SM================================*/
+
+@media (max-width: 576px) {
+  #servicios-fila-2 {
+      width:100% !important;
+  }
+  #servicios-fila-1 {
+      width:100% !important;
+  }
+
+  .icono-wrap{
+      flex-wrap:wrap !important;
+      justify-content: center !important;
+      text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .col-md-6 {
+    width: 100%;
+  }
+}
+
+
+.py-3 {
+  font-size: 30px;
+}
+
+@media only screen and (max-width: 767px) {
+  .py-3 {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .py-3 {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead.text-muted {
+    font-size: 16px;
+  }
+
+  .fw-light {
+    font-size: 24px;
+  }
+}
+
+
+
+@media (min-width: 768px) {
+  .cardi img {
+    height: 11em;
+  }
+}
+
+
+/* Media query para pantallas más pequeñas */
+@media (max-width: 768px) {
+  ul {
+    font-size: 16px; /* Tamaño de fuente ajustado para el ul en pantallas más pequeñas */
+  }
+
+  ul li {
+    font-size: 16px; /* Tamaño de fuente ajustado para el li en pantallas más pequeñas */
+  }
+}
+
+
+
+
+.text-container {
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+}
+
+
+
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7); /* Color de fondo transparente para el overlay */
+  color: #fff; /* Color del texto del overlay */
+  display: flex;
+  justify-content: center; /* Centrar horizontalmente el contenido del overlay */
+  align-items: center; /* Centrar verticalmente el contenido del overlay */
+  opacity: 0; /* Ocultar el overlay inicialmente */
+  transition: opacity 0.3s ease; /* Transición suave para mostrar/ocultar el overlay */
+}
+
+.image-container:hover .overlay {
+  opacity: 1; /* Mostrar el overlay al pasar el puntero sobre la imagen */
+}
+
+
+.image-container:hover .card-text {
+  opacity: 1; /* Mostrar el texto al pasar el puntero sobre la imagen */
+}
+
+.cardo-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  padding: 10px;
+  opacity: 0; /* Ocultar el texto inicialmente */
+  background-color: rgba(0, 0, 0, 0.7); /* Color de fondo transparente para el texto */
+  color: #fff; /* Color del texto */
+  border-radius: 5px; /* Bordes redondeados para el texto */
+  width: 80%; /* Ajustar el ancho del texto según tus necesidades */
+}
+
+
